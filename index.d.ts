@@ -18,4 +18,7 @@ declare namespace ThinkWebsocket {
   const controller: ThinkWebsocketCtx
   const context: ThinkWebsocketCtx
 }
+
+declare function ThinkWebsocket(app: thinkjs.Application): typeof ThinkWebsocket
+
 export = ThinkWebsocket;
